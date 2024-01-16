@@ -11,7 +11,7 @@ public class FibonacciTests
         Assert.Equal(0, FibonacciService.GetFibonacciValueOf(0));
     }
 
-    // test negative numbers
+    // test negative numbers (failure)
     [Fact]
     public void Fibonacci_NoNegativeInput()
     {
@@ -31,6 +31,7 @@ public class FibonacciTests
         Assert.Equal(1, FibonacciService.GetFibonacciValueOf(1));
         Assert.Equal(1, FibonacciService.GetFibonacciValueOf(2));
         Assert.Equal(2, FibonacciService.GetFibonacciValueOf(3));
+        Assert.Equal(8, FibonacciService.GetFibonacciValueOf(6));
     }
 
     // test large numbers
@@ -40,7 +41,7 @@ public class FibonacciTests
         Assert.Equal(9227465, FibonacciService.GetFibonacciValueOf(35));
     }
 
-    // test for exception
+    // test for exception (failure test)
     [Fact]
     public void Fibonacci_NegativeInput_ThrowsException()
     {
