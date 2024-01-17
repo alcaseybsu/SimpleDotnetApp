@@ -6,7 +6,7 @@ public class FibonacciTests
 {
     // test zero
     [Fact]
-    public void Fibonacci_ZeroInput_ReturnsZero()
+    public void Fibonacci_BaseValues()
     {
         Assert.Equal(0, FibonacciService.GetFibonacciValueOf(0));
     }

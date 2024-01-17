@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathService.Tests", "MathSe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{54B959BA-6DE3-4E72-BB66-6C4A1A1DE431}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MathService", "MathService\MathService.csproj", "{17A547C5-08C5-41FF-9CB6-E5D48A03034A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{54B959BA-6DE3-4E72-BB66-6C4A1A1DE431}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{54B959BA-6DE3-4E72-BB66-6C4A1A1DE431}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{54B959BA-6DE3-4E72-BB66-6C4A1A1DE431}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17A547C5-08C5-41FF-9CB6-E5D48A03034A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17A547C5-08C5-41FF-9CB6-E5D48A03034A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17A547C5-08C5-41FF-9CB6-E5D48A03034A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17A547C5-08C5-41FF-9CB6-E5D48A03034A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

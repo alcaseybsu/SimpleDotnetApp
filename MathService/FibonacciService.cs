@@ -1,20 +1,28 @@
 ﻿namespace MathService;
 
-public static class FibonacciService
+public class FibonacciService
 {
     public static int GetFibonacciValueOf(int n)
     {
         if (n < 0)
         {
-            throw new ArgumentException("Input cannot be negative");
+            throw new ArgumentException("No negative!");
         }
-        else if (n <= 1)
+        if (n <= 1)
         {
             return n;
         }
-        else
+
+         int a = 0;
+        int b = 1;
+
+        for (int i = 2; i <= n; i++)
         {
-            return GetFibonacciValueOf(n - 1) + GetFibonacciValueOf(n - 2);
+            int temp = a + b;
+            a = b;
+            b = temp;
         }
+
+        return b;
     }
 }
